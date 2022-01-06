@@ -1,0 +1,51 @@
+a {
+	color: #DA291C !important;
+}
+
+.about_site {
+	font-size: x-large;
+	line-height: 1.5em;
+	text-align: center;
+	font-family: "Lora", serif;
+}
+
+.cmp_button_wire, .obj_galley_link {
+	border: 1px solid #DA291C !important;
+}
+
+.pkp_navigation_primary [aria-haspopup] ul a:focus, .pkp_navigation_primary [aria-haspopup] ul a:hover {
+    border-color: #DA291C !important;
+}
+
+.pkp_site_name .is_text {
+	font-size: 42px !important;
+	line-height: 42px !important;
+}
+
+
+.cmp_button_wire:hover, .cmp_button_wire:focus, .obj_galley_link:hover, .obj_galley_link:focus {
+	background: #DA291C !important;
+	color: #FFFFFF !important;
+}
+
+.pkp_structure_head {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    background-image: url(../../site/pageHeaderTitleImage_en_US.png);
+    background-repeat: no-repeat;
+	background-size: 50%;
+    background-position: left top;
+
+}
+
+@media (min-width: 768px) {
+  .pkp_structure_head {
+      background-position: center top;
+  }
+}
+
+@media (min-width: 992px) {
+  .pkp_structure_head {
+      background-size: 22%;
+  }
+}		
